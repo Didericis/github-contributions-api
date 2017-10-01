@@ -5,7 +5,7 @@ Currently hosted on heroku: https://github-contributions-api.herokuapp.com
 
 ### Usage
 
-`POST /:user/activity`
+`GET /:user/activity`
 
 Returns whether or not user was active on a given day within the last year
 
@@ -27,7 +27,7 @@ Returns whether or not user was active on a given day within the last year
 }
 ```
 ----
-`POST /:user/count`
+`GET /:user/count`
 
 Returns activity count of user on a given day within the last year
 

@@ -10,7 +10,7 @@ const app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
-app.post('/:user/:format', (req, res, next) => {
+app.get('/:user/:format', (req, res, next) => {
   const { format, user } = req.params;
 
   // Render 400 if invalid format given
